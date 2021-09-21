@@ -168,7 +168,7 @@ a {
   text-transform: uppercase;
   white-space: nowrap;
 }
-/* curser: to make the button looks more clikbale */
+/* curser: to make the button looks more clickable */
 .btn--primary {
   background: var(--color-primary);
   color: #fff;
