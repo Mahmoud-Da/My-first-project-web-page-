@@ -129,3 +129,23 @@ a {
     padding-left: 0rem;
   }
 }
+/* ICons */
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+.icon--primary {
+  fill: var(--color-primary);
+}
+/* fill is for colorring the svg.files */
+
+.icon-container {
+  background: #00d9ff;
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
