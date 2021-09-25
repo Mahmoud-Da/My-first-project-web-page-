@@ -238,11 +238,37 @@ to get ride of defult outline of the browser */
 .input-group .input {
   border: 0;
   flex-grow: 1;
+  padding: 1.5rem 1rem;
 }
 /* when we have an input-group if we have input inside it
- we should set the border to zero to  */
+ we should set the border to zero to  
+ we set padding here to reduce the space between the text and the other input*/
+
 @media screen and (min-width: 1024) {
   .input {
     font-size: 1.5rem;
   }
+}
+/* Cards */
+.card {
+  border-radius: 7px;
+  box-shadow: 0 0 20px 10px #f3f3f3;
+  overflow: hidden;
+}
+/* box shadow: 0 0 for vertical and horizontal offset
+                20 px for blurring the shadow and make it softer 
+                10px  for spreading the shadow (bigger value --> bigger shadow)*/
+
+.card__header,
+.card__body {
+  padding: 2rem 3rem;
+}
+
+.card--primary .card__header {
+  background: var(--color-primary);
+  color: #fff;
+}
+.card--secondary .card__header {
+  background: var(--color-secondary);
+  color: #fff;
 }
