@@ -475,7 +475,10 @@ negative value to push it opposite   */
 /* Callout */
 .callout {
   padding: 4rem;
-  border-radius: 5px;
+  border-radius: 10px;
+  max-width: 1000px;
+  max-height: 300px;
+  margin: auto;
 }
 .callout--primary {
   background: var(--color-primary);
