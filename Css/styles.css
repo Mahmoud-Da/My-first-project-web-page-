@@ -191,12 +191,13 @@ a {
   font-weight: 600;
   margin: 1rem 0;
   outline: 0;
-  padding: 2rem 3rem;
+  padding: 2rem 4vw;
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
 }
-/* curser: to make the button looks more clickable */
+/* curser: to make the button looks more clickable 
+ paddind 4vw to solve the layout problem*/
 .btn .icon {
   width: 2rem;
   height: 2rem;
@@ -275,6 +276,7 @@ to get ride of defult outline of the browser */
   border: 0;
   flex-grow: 1;
   padding: 1.5rem 2rem;
+  width: 0;
 }
 /* when we have an input-group if we have input inside it
  we should set the border to zero to  
@@ -646,8 +648,9 @@ negative value to push it opposite   */
 }
 
 .block-domain__prices {
+  color: var(--color-heading);
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 6rem);
   font-size: 2rem;
   font-weight: 600;
