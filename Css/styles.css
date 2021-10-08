@@ -780,6 +780,7 @@ for setting the highet of each rows */
   .footer__brand {
     order: -1;
     margin-top: 1rem;
+    margin-right: 9rem;
   }
 
   .footer__copyright {
